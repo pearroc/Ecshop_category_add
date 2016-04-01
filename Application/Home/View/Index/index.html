@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>分类管理</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<style>
+.catlist li{margin:10px 0;}
+.catlist li:hover{background:#eee;}
+</style>
+</head>
+<body>
+<a href="__CONTROLLER__/add">添加大类</a>
+<ul class="catlist">
+<volist name="category" id="cat">
+<li>{$cat.cat_name}[{$catnum.$key}]<span><a href="__CONTROLLER__/sadd/id/{$cat.cat_id}">添加小类</a></span></li>
+</volist>
+</ul>
+</body>
+</html>
