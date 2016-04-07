@@ -9,6 +9,7 @@
 </head>
 <body>
 <h1>添加<font color="red">{$bigcat}</font>小类</h1>
+<div style="color:red;">*每个小分类之间用空格隔开</div>
 <form action="__CONTROLLER__/sadd" method="post">
 <textarea name="scat" style="height:500px;width:300px;"></textarea><br />
 <input type="text" name="big_id" value="{$Think.get.id}" style="display:none;" />

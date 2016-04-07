@@ -9,6 +9,6 @@ return array(
 	DB_PREFIX=>'ecs_',
 	DB_PORT=>'3306',
 	
-	'SHOW_ERROR_MSG' =>false,
-	'SHOW_PAGE_TRACE' =>true, // 显示页面Trace信息
+	//'SHOW_ERROR_MSG' =>false,
+	//'SHOW_PAGE_TRACE' =>true, // 显示页面Trace信息
 );
